@@ -1,0 +1,33 @@
+﻿<Window x:Class="Chaat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chaat"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="460" Width="670">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.7*"></RowDefinition>
+            <RowDefinition Height="0.15*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ScrollViewer x:Name="TextScroll" Grid.Row="1" HorizontalScrollBarVisibility ="Disabled"  VerticalScrollBarVisibility="Auto">
+            <StackPanel Background="#D3FDD4" x:Name="Messages">
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.9*"></ColumnDefinition>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <DockPanel Background="Green" >
+                <TextBox DockPanel.Dock="Bottom" x:Name="UserText" Margin="7 7 7 7" Background="LawnGreen" MaxLength="1000" FontSize="14" TextWrapping ="Wrap"></TextBox>
+            </DockPanel>
+            <Button Grid.Column="1" x:Name="SendMessage" Background="LightGreen" IsDefault="True" Click="SendMessage_Click">Send</Button>
+        </Grid>
+        <ComboBox Background="Green" BorderThickness="0" x:Name="ActiveUsers" FontSize="20" SelectionChanged="ActiveUsers_SelectionChanged"></ComboBox>
+
+    </Grid>
+</Window>

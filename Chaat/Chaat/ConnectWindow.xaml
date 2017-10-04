@@ -1,0 +1,25 @@
+﻿<Window x:Class="Chaat.ConnectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chaat"
+        mc:Ignorable="d"
+        Title="Connect" Height="500" Width="300" ResizeMode="CanMinimize" Background="LightYellow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="EnterServer" Grid.Row="1" >
+            <TextBlock Margin="15 0 15 0" HorizontalAlignment="Center" FontSize="15">Sever IP</TextBlock>
+            <TextBox Margin="0 5 0 0 " x:Name="ServerIPtext" HorizontalAlignment="Center" Width="200"  FontSize="18"></TextBox>
+            <TextBlock Margin="15 0 15 0" HorizontalAlignment="Center" FontSize="15">Port</TextBlock>
+            <TextBox Margin="0 5 0 0 " x:Name="PortText" HorizontalAlignment="Center" Width="200"  FontSize="18"></TextBox>
+            <Button Margin="0 15 0 0" HorizontalAlignment="Center" Width="90" Height="35" Click="Button_Click">Connect</Button>
+            <TextBlock Margin="15 15 15 0" x:Name="ErrorMessage" HorizontalAlignment="Center" FontSize="15" Foreground="Red"></TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Window>
