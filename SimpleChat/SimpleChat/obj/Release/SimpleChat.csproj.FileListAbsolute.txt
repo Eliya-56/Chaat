@@ -1,0 +1,9 @@
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\SimpleChat.dll.config
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\SimpleChat.dll
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\SimpleChat.pdb
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\EntityFramework.dll
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\EntityFramework.xml
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\obj\Release\SimpleChat.dll
+C:\Users\Администратор\documents\visual studio 2017\Projects\SimpleChat\SimpleChat\obj\Release\SimpleChat.pdb
