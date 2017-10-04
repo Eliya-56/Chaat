@@ -1,0 +1,12 @@
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\TestServer.exe.config
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\TestServer.exe
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\TestServer.pdb
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\EntityFramework.dll
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\SimpleChat.dll
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\EntityFramework.xml
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\SimpleChat.pdb
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\bin\Release\SimpleChat.dll.config
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\obj\Release\TestServer.exe
+C:\Users\Администратор\Desktop\C#\projects\TestServer\TestServer\obj\Release\TestServer.pdb
